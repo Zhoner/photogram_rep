@@ -1,6 +1,6 @@
-------------------
-sync workspace
-------------------
+------------------------------------------------------------------
+sync workspace, ogni volta che si sincronizza, a un nuovo progetto
+------------------------------------------------------------------
 git init
 git add .
 git remote add orgin https://github.com/Zhoner/photogram_rep.git
@@ -10,9 +10,9 @@ git push origin master
 git commit -m "server"
 
 
--------------------
-sync with github
--------------------
+------------------------------------------
+sync with github, ogni modifica effettuata
+------------------------------------------
 git add .
 git pull --allow-unrelated-histories orgin master
 git push origin master
